@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оптимайзер</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 20px;
+        }
+        canvas {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <button onclick="getData()">Загрузить данные</button>
+</div>
+
+<script>
+    function getData() {
+        const savedData = localStorage.getItem('AgentsData');
+        if (savedData) {
+            console.log("Data is saved!");
+        } else {
+            fetch('https://18f8-176-59-208-161.ngrok-free.app/api/data', {
+                headers: new Headers({
+                    "ngrok-skip-browser-warning": true
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log("Data has been saved!")
+                localStorage.setItem('AgentsData', JSON.stringify(data));
+            })
+            .catch(error => console.error('Error fetching data:', error));
+        }
+    }
+
+    function addAgent() {
+
+    }
+    
+    
+
+    function calculateAndDraw() {
+        // const canvas = document.getElementById("myCanvas");
+        // const ctx = canvas.getContext("2d");
+
+        // ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // const startX = 50;
+        // let currentX = startX;
+        // let currentColor = "#408040";
+
+        // data.forEach(hit => {
+        //     const dmgValue = attack * knowledge;
+        //     const anomalyValue = control * hit["anomaly"];
+
+        //     const xValue = Math.min(canvas.width - currentX, anomalyValue);
+        //     const yValue = 300;
+
+        //     ctx.fillStyle = currentColor; 
+        //     currentColor = ((currentColor != "#408040") ? "#408040" : "#50A050");
+        //     ctx.fillRect(currentX, canvas.height - 50 - yValue, xValue, yValue);
+
+        //     currentX += xValue;
+        // });
+    }
+</script>
+
+</body>
+</html>
