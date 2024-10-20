@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #000;
+    overflow: hidden;
+    padding: 0px 0px;
+}
+.navbar a {
+    text-align: center;
+    padding: 10px 10px;
+    font-size: large;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: rgb(130, 130, 130);
+}
+.navbar a:focus {
+    border: none;
+}
+.enabled {
+    background-color: darkblue;
+}
