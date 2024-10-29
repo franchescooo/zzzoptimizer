@@ -5238,6 +5238,7 @@ __metadata:
     nuxt: "npm:^3.13.2"
     vue: "npm:latest"
     vue-router: "npm:latest"
+    vue3-carousel: "npm:^0.4.0"
   languageName: unknown
   linkType: soft
 
@@ -7398,6 +7399,15 @@ __metadata:
   peerDependencies:
     vue: ^3.2.0
   checksum: 10c0/97764fa57f3338559645e6b86c5001b313bacd753bcacf01ca17770d78794fa564d9c9bd24e9b99104e31d7e484d7c30844099300ec923e0c05d45e27111c0e7
+  languageName: node
+  linkType: hard
+
+"vue3-carousel@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "vue3-carousel@npm:0.4.0"
+  peerDependencies:
+    vue: ^3.2.0
+  checksum: 10c0/afe2df0f3603130ce09068ed087e2c97ee880b9bc100fc997d0a2f70af342d669f56440bc928ed3e9193c498098a0ee22a39ee06d1305a3acca4b958c2d158e0
   languageName: node
   linkType: hard
 
