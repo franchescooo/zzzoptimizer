@@ -10,7 +10,7 @@
 </template>
 <style>
 .carousel-image-item {
-  height: 400;
+  height: 400px;
 }
 </style>
 <script lang="js" setup>
