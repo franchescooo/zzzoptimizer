@@ -12,8 +12,8 @@
 <style>
 .carousel-nav {
   position: relative;
-  margin-top: -40px;
   color: white;
+  margin-top: -50px;
   font-size: x-large;
 }
 .classCur {

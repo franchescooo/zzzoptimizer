@@ -5,9 +5,9 @@
 </template>
 <script setup>
 const images = [
-  "https://img2.teletype.in/files/95/c9/95c93d56-b7c3-459c-8c22-4d60f3f21e1d.png",
-  "https://img4.teletype.in/files/35/30/3530d0f1-0dc5-4e60-92e9-2033992e753b.png",
-  "https://img3.teletype.in/files/e1/7f/e17f536c-c938-493c-9c30-0f3de001a3c1.png",
-  "https://img1.teletype.in/files/c6/14/c6149487-3859-48f0-b9f0-cedf8841f98d.png",  
+  "https://img1.teletype.in/files/89/a1/89a1239c-6cb3-438c-9ebe-60f54daf7073.png",  
+  "https://img2.teletype.in/files/92/00/92001e2d-5962-41c3-8c98-5aa880572af4.png",
+  "https://img1.teletype.in/files/c9/64/c96498bb-0a76-4224-9d10-9cc4174bb9e1.png",
+  "https://img1.teletype.in/files/47/33/47330771-78ec-4a25-834d-a0f62df5e1d3.png",
 ]
 </script>

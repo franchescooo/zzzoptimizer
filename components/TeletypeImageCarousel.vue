@@ -19,10 +19,11 @@
 </template>
 <style>
 .carousel-image-item {
-  height: 600px;
+  height: inherit;
+  max-height: 500px;
+  width:inherit;
+  object-fit: contain;
 }
-
-
 
 .unselectable {
   -moz-user-select: -moz-none;
