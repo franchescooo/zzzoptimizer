@@ -13,7 +13,7 @@
       </Slide>
     </template>
     <template #addons="{ currentSlide, slidesCount }">
-      <UICarouselNav :currentSlide :slidesCount />
+      <TeletypeCarouselNav :currentSlide :slidesCount />
     </template>
   </Carousel>
 </template>

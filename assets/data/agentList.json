@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Anby",
+        "icon": "icons/agents/Anby.webp",
+        "rang": "A",
+        "faction": "Cunning Hares",
+        "speciality": "Stun",
+        "attribute": "Electric"
+    },
+    {
+        "name": "Nekomata",
+        "icon": "icons/agents/Nekomata.webp",
+        "rang": "S",
+        "faction": "Cunning Hares",
+        "speciality": "Attack",
+        "attribute": "Physical"
+    },
+    {
+        "name": "Nicole",
+        "icon": "icons/agents/Nicole.webp",
+        "rang": "A",
+        "faction": "Cunning Hares",
+        "speciality": "Support",
+        "attribute": "Ether"
+    },
+    {
+        "name": "Soldier 11",
+        "icon": "icons/agents/Soldier 11.webp",
+        "rang": "S",
+        "faction": "Obol Squad",
+        "speciality": "Attack",
+        "attribute": "Fire"
+    },
+    {
+        "name": "Corin",
+        "icon": "icons/agents/Corin.webp",
+        "rang": "A",
+        "faction": "Victoria Housekeeping Co.",
+        "speciality": "Attack",
+        "attribute": "Physical"
+    },
+    {
+        "name": "Caesar",
+        "icon": "icons/agents/Caesar.webp",
+        "rang": "S",
+        "faction": "Sons of Calydon",
+        "speciality": "Defense",
+        "attribute": "Physical"
+    },
+    {
+        "name": "Billy",
+        "icon": "icons/agents/Billy.webp",
+        "rang": "A",
+        "faction": "Cunning Hares",
+        "speciality": "Attack",
+        "attribute": "Physical"
+    },
+    {
+        "name": "Koleda",
+        "icon": "icons/agents/Koleda.webp",
+        "rang": "S",
+        "faction": "Belobog Heavy Industries",
+        "speciality": "Stun",
+        "attribute": "Fire"
+    },
+    {
+        "name": "Anton",
+        "icon": "icons/agents/Anton.webp",
+        "rang": "A",
+        "faction": "Belobog Heavy Industries",
+        "speciality": "Attack",
+        "attribute": "Electric"
+    },
+    {
+        "name": "Ben",
+        "icon": "icons/agents/Ben.webp",
+        "rang": "A",
+        "faction": "Belobog Heavy Industries",
+        "speciality": "Defense",
+        "attribute": "Fire"
+    },
+    {
+        "name": "Soukaku",
+        "icon": "icons/agents/Soukaku.webp",
+        "rang": "A",
+        "faction": "Hollow Special Operations Section 6",
+        "speciality": "Support",
+        "attribute": "Ice"
+    },
+    {
+        "name": "Lycaon",
+        "icon": "icons/agents/Lycaon.webp",
+        "rang": "S",
+        "faction": "Victoria Housekeeping Co.",
+        "speciality": "Stun",
+        "attribute": "Ice"
+    },
+    {
+        "name": "Lucy",
+        "icon": "icons/agents/Lucy.webp",
+        "rang": "A",
+        "faction": "Sons of Calydon",
+        "speciality": "Support",
+        "attribute": "Fire"
+    },
+    {
+        "name": "Lighter",
+        "icon": "icons/agents/Lighter.webp",
+        "rang": "S",
+        "faction": "Sons of Calydon",
+        "speciality": "Stun",
+        "attribute": "Fire"
+    },
+    {
+        "name": "Burnice",
+        "icon": "icons/agents/Burnice.webp",
+        "rang": "S",
+        "faction": "Sons of Calydon",
+        "speciality": "Anomaly",
+        "attribute": "Fire"
+    },
+    {
+        "name": "Grace",
+        "icon": "icons/agents/Grace.webp",
+        "rang": "S",
+        "faction": "Belobog Heavy Industries",
+        "speciality": "Anomaly",
+        "attribute": "Electric"
+    },
+    {
+        "name": "Ellen",
+        "icon": "icons/agents/Ellen.webp",
+        "rang": "S",
+        "faction": "Victoria Housekeeping Co.",
+        "speciality": "Attack",
+        "attribute": "Ice"
+    },
+    {
+        "name": "Rina",
+        "icon": "icons/agents/Rina.webp",
+        "rang": "S",
+        "faction": "Victoria Housekeeping Co.",
+        "speciality": "Support",
+        "attribute": "Electric"
+    },
+    {
+        "name": "Yanagi",
+        "icon": "icons/agents/Yanagi.webp",
+        "rang": "S",
+        "faction": "Hollow Special Operations Section 6",
+        "speciality": "Anomaly",
+        "attribute": "Electric"
+    },
+    {
+        "name": "Zhu Yuan",
+        "icon": "icons/agents/Zhu Yuan.webp",
+        "rang": "S",
+        "faction": "Criminal Investigation Special Response Team",
+        "speciality": "Attack",
+        "attribute": "Ether"
+    },
+    {
+        "name": "Qingyi",
+        "icon": "icons/agents/Qingyi.webp",
+        "rang": "S",
+        "faction": "Criminal Investigation Special Response Team",
+        "speciality": "Stun",
+        "attribute": "Electric"
+    },
+    {
+        "name": "Jane",
+        "icon": "icons/agents/Jane.webp",
+        "rang": "S",
+        "faction": "Criminal Investigation Special Response Team",
+        "speciality": "Anomaly",
+        "attribute": "Physical"
+    },
+    {
+        "name": "Seth",
+        "icon": "icons/agents/Seth.webp",
+        "rang": "A",
+        "faction": "Criminal Investigation Special Response Team",
+        "speciality": "Defense",
+        "attribute": "Electric"
+    },
+    {
+        "name": "Piper",
+        "icon": "icons/agents/Piper.webp",
+        "rang": "A",
+        "faction": "Sons of Calydon",
+        "speciality": "Anomaly",
+        "attribute": "Physical"
+    }
+]

@@ -1,5 +1,5 @@
 <template>
-  <TeletypeImageCarousel 
+  <TeletypeCarousel 
     :images
   />
 </template>

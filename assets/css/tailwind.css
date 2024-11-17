@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "zzz";
+  src: url("../fonts/ru-ru.ttf") format("truetype");
+}
+
+body {
+  font-family: "zzz";
+}

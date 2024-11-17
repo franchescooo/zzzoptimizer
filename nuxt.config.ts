@@ -4,5 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   app: {
     baseURL: "/zzzoptimizer/"
-  }
+  },
+  modules: [
+    "@nuxt/ui"
+  ],
+  css: [
+    'assets/css/tailwind.css',
+    'vue-final-modal/style.css'
+  ]
 })
