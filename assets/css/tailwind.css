@@ -10,3 +10,7 @@
 body {
   font-family: "zzz";
 }
+
+.dark {
+  color-scheme: normal;
+}
