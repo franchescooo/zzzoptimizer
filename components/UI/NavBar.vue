@@ -2,27 +2,27 @@
 const pages = [
   {
     title: 'Главная',
-    link: '/'
+    link: '/zzzoptimizer'
   },
   {
     title: 'Диски',
-    link: '/discs'
+    link: '/zzzoptimizer/discs'
   },
   {
     title: 'Агенты',
-    link: '/agents'
+    link: '/zzzoptimizer/agents'
   },
   {
     title: 'Амплификаторы',
-    link: '/wegines'
+    link: '/zzzoptimizer/wegines'
   },
   {
     title: 'Команды',
-    link: '/teams'
+    link: '/zzzoptimizer/teams'
   },
   {
     title: 'Настройки',
-    link: '/settings'
+    link: '/zzzoptimizer/settings'
   }
 ]
 </script>
