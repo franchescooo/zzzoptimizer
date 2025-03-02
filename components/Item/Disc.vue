@@ -38,7 +38,7 @@ import DiscList from '../Modal/DiscList.vue';
 
 const { DiscID, Partition } = defineProps(["DiscID", "Partition"]);
 const discs = (localStorage.getItem("discs") ? JSON.parse(localStorage.getItem("discs")) : {})
-const disc = (Object.hasOwn(discs, DiscID) ? discs[DiscID] : {set: "ThunderMetal"})
+const disc = (Object.hasOwn(discs, DiscID) ? discs[DiscID] : {id: -1, set: "empty", part: Partition, main: "empty", sub: []})
 const { set, part } = disc
 
 const openDisc = useModal({

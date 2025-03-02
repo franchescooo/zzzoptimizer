@@ -1,5 +1,13 @@
-[
-    {
+{
+    "Miyabi": {
+        "name": "Miyabi",
+        "icon": "icons/agents/Miyabi.webp",
+        "rang": "S",
+        "faction": "Hollow Special Operations Section 6",
+        "speciality": "Anomaly",
+        "attribute": "Ice"
+    },
+    "Anby": {
         "name": "Anby",
         "icon": "icons/agents/Anby.webp",
         "rang": "A",
@@ -7,7 +15,7 @@
         "speciality": "Stun",
         "attribute": "Electric"
     },
-    {
+    "Nekomata": {
         "name": "Nekomata",
         "icon": "icons/agents/Nekomata.webp",
         "rang": "S",
@@ -15,7 +23,7 @@
         "speciality": "Attack",
         "attribute": "Physical"
     },
-    {
+    "Nicole": {
         "name": "Nicole",
         "icon": "icons/agents/Nicole.webp",
         "rang": "A",
@@ -23,7 +31,7 @@
         "speciality": "Support",
         "attribute": "Ether"
     },
-    {
+    "Soldier 11": {
         "name": "Soldier 11",
         "icon": "icons/agents/Soldier 11.webp",
         "rang": "S",
@@ -31,7 +39,7 @@
         "speciality": "Attack",
         "attribute": "Fire"
     },
-    {
+    "Corin": {
         "name": "Corin",
         "icon": "icons/agents/Corin.webp",
         "rang": "A",
@@ -39,7 +47,7 @@
         "speciality": "Attack",
         "attribute": "Physical"
     },
-    {
+    "Caesar": {
         "name": "Caesar",
         "icon": "icons/agents/Caesar.webp",
         "rang": "S",
@@ -47,7 +55,7 @@
         "speciality": "Defense",
         "attribute": "Physical"
     },
-    {
+    "Billy": {
         "name": "Billy",
         "icon": "icons/agents/Billy.webp",
         "rang": "A",
@@ -55,7 +63,7 @@
         "speciality": "Attack",
         "attribute": "Physical"
     },
-    {
+    "Koleda": {
         "name": "Koleda",
         "icon": "icons/agents/Koleda.webp",
         "rang": "S",
@@ -63,7 +71,7 @@
         "speciality": "Stun",
         "attribute": "Fire"
     },
-    {
+    "Anton": {
         "name": "Anton",
         "icon": "icons/agents/Anton.webp",
         "rang": "A",
@@ -71,7 +79,7 @@
         "speciality": "Attack",
         "attribute": "Electric"
     },
-    {
+    "Ben": {
         "name": "Ben",
         "icon": "icons/agents/Ben.webp",
         "rang": "A",
@@ -79,7 +87,7 @@
         "speciality": "Defense",
         "attribute": "Fire"
     },
-    {
+    "Soukaku": {
         "name": "Soukaku",
         "icon": "icons/agents/Soukaku.webp",
         "rang": "A",
@@ -87,7 +95,7 @@
         "speciality": "Support",
         "attribute": "Ice"
     },
-    {
+    "Lycaon": {
         "name": "Lycaon",
         "icon": "icons/agents/Lycaon.webp",
         "rang": "S",
@@ -95,7 +103,7 @@
         "speciality": "Stun",
         "attribute": "Ice"
     },
-    {
+    "Lucy": {
         "name": "Lucy",
         "icon": "icons/agents/Lucy.webp",
         "rang": "A",
@@ -103,7 +111,7 @@
         "speciality": "Support",
         "attribute": "Fire"
     },
-    {
+    "Lighter": {
         "name": "Lighter",
         "icon": "icons/agents/Lighter.webp",
         "rang": "S",
@@ -111,7 +119,7 @@
         "speciality": "Stun",
         "attribute": "Fire"
     },
-    {
+    "Burnice": {
         "name": "Burnice",
         "icon": "icons/agents/Burnice.webp",
         "rang": "S",
@@ -119,7 +127,7 @@
         "speciality": "Anomaly",
         "attribute": "Fire"
     },
-    {
+    "Grace": {
         "name": "Grace",
         "icon": "icons/agents/Grace.webp",
         "rang": "S",
@@ -127,7 +135,7 @@
         "speciality": "Anomaly",
         "attribute": "Electric"
     },
-    {
+    "Ellen": {
         "name": "Ellen",
         "icon": "icons/agents/Ellen.webp",
         "rang": "S",
@@ -135,7 +143,15 @@
         "speciality": "Attack",
         "attribute": "Ice"
     },
-    {
+    "Harumasa": {
+        "name": "Harumasa",
+        "icon": "icons/agents/Harumasa.webp",
+        "rang": "S",
+        "faction": "Hollow Special Operations Section 6",
+        "speciality": "Attack",
+        "attribute": "Electric"
+    },
+    "Rina": {
         "name": "Rina",
         "icon": "icons/agents/Rina.webp",
         "rang": "S",
@@ -143,7 +159,7 @@
         "speciality": "Support",
         "attribute": "Electric"
     },
-    {
+    "Yanagi": {
         "name": "Yanagi",
         "icon": "icons/agents/Yanagi.webp",
         "rang": "S",
@@ -151,7 +167,7 @@
         "speciality": "Anomaly",
         "attribute": "Electric"
     },
-    {
+    "Zhu Yuan": {
         "name": "Zhu Yuan",
         "icon": "icons/agents/Zhu Yuan.webp",
         "rang": "S",
@@ -159,7 +175,7 @@
         "speciality": "Attack",
         "attribute": "Ether"
     },
-    {
+    "Qingyi": {
         "name": "Qingyi",
         "icon": "icons/agents/Qingyi.webp",
         "rang": "S",
@@ -167,7 +183,7 @@
         "speciality": "Stun",
         "attribute": "Electric"
     },
-    {
+    "Jane": {
         "name": "Jane",
         "icon": "icons/agents/Jane.webp",
         "rang": "S",
@@ -175,7 +191,7 @@
         "speciality": "Anomaly",
         "attribute": "Physical"
     },
-    {
+    "Seth": {
         "name": "Seth",
         "icon": "icons/agents/Seth.webp",
         "rang": "A",
@@ -183,7 +199,7 @@
         "speciality": "Defense",
         "attribute": "Electric"
     },
-    {
+    "Piper": {
         "name": "Piper",
         "icon": "icons/agents/Piper.webp",
         "rang": "A",
@@ -191,4 +207,4 @@
         "speciality": "Anomaly",
         "attribute": "Physical"
     }
-]
+}

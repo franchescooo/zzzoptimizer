@@ -4,7 +4,7 @@
     content-class="flex flex-row h-5/6 max-w-7xl bg-slate-600 p-8 rounded-xl"
   >
     <img 
-      :src="'arts/' + AgentName + '.webp'"
+      :src="'arts/' + agentName + '.webp'"
       class="w-1/5 object-cover"
     />
     <div
@@ -34,13 +34,31 @@
           <div>HP: {{  }}</div>
           <div>DEF: {{  }}</div>
         </div>
-        <ItemDriver :AgentName />
+        <ItemDriver :agentName />
       </div>
     </div>
   </VueFinalModal>
 </template>
 
-<script setup lang="ts">
+<script setup lang="js">
 import { VueFinalModal } from 'vue-final-modal';
-const { AgentName } = defineProps(["AgentName"])
+import agentData from '@/assets/data/agentData.json'
+
+const { agentName } = defineProps(["agentName"])
+
+const agentStats = agentData[agentName]["Stats"]
+const agentCore = agentData[agentName]["core"]
+
+const agentLVL = ref(60);
+const agentProm = ref(6)
+
+const coreStat = (stat) => {
+  return (~~((agentProm.value + 1) / 2)) * (agentCore[0][0] == stat) * agentCore[0][1] + (~~(agentProm.value / 2)) * (agentCore[1][0] == stat) * agentCore[1][1]
+}
+
+const agentBase = {
+  atk: () => (agentLVL * agentStats["atkperlvl"] + agentStats["atk"] + coreStat("atk")),
+  hp: () => (agentLVL * agentStats["hpperlvl"] + agentStats["hp"] + coreStat("hp")),
+  def: () => (agentLVL * agentStats["defperlvl"] + agentStats["def"] + coreStat("def")),
+}
 </script>

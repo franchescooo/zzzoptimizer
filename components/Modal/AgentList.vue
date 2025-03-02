@@ -6,9 +6,9 @@
     <CardAgent 
       v-for="agent in agentList"
       :key="agent.name"
-      :AgentName="agent.name"
-      :AgentRank="agent.rang"
-      :AgentIcon="agent.icon"
+      :agentName="agent.name"
+      :agentRank="agent.rang"
+      :agentIcon="agent.icon"
     />
   </VueFinalModal>
 </template>

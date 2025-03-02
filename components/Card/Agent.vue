@@ -6,10 +6,10 @@
     >
       <img 
         class="flex w-1/3"
-        :src="AgentIcon" 
+        :src="agentIcon" 
       />
       <div class="bg-sky-300 m-2 p-1 h-fit w-2/3 text-center rounded-md text-m">
-        {{ AgentName }}
+        {{ agentName }}
       </div>
     </div>
   </UIItemCard>
@@ -19,12 +19,12 @@ import { useModal } from 'vue-final-modal';
 import AddAgent from '../Modal/AddAgent.vue';
 
 
-const { AgentName, AgentRank, AgentIcon } = defineProps(['AgentName', 'AgentRank', 'AgentIcon'])
+const { agentName, agentRank, agentIcon } = defineProps(['agentName', 'agentRank', 'agentIcon'])
 
 const { open, close } = useModal({
   component: AddAgent,
   attrs: {
-    "AgentName": AgentName
+    "agentName": agentName
   }
 })
 </script>
